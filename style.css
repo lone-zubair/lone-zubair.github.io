@@ -171,19 +171,19 @@
 
 @media only screen and (max-width:480px) {
     .logo {
-        width: 30px;
+        width: 40px;
     }
     .myname {
-        font-size: 5px;
-        margin-left: 35%
+        font-size: 8px;
+        margin-left: 33%
     }
     .section {
         display: block;
-        margin: 5% 0% 0% 23%;
+        margin: 5% 0% 0% 20%;
     }
     .imagesectnav {
-        width: 200%;
-        margin-top: 20%;
+        width: 240%;
+        margin-top: 15%;
     }
     .navlink {
         margin-left: 5%;
