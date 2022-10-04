@@ -46,6 +46,59 @@
     width: 90%;
 }
 
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .navlink {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,20 +116,73 @@
     text-align: center;
 }
 
+.fade-in-text {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width:480px) {
     .logo {
-        width: 50px;
+        width: 30px;
     }
     .myname {
-        font-size: 8px;
-        margin-left: 33%
+        font-size: 5px;
+        margin-left: 35%
     }
     .section {
         display: block;
-        margin: 5% 0% 0% 20%;
+        margin: 5% 0% 0% 23%;
     }
     .imagesectnav {
-        width: 250%;
+        width: 200%;
         margin-top: 20%;
     }
     .navlink {
@@ -87,8 +193,5 @@
     }
     .homeicon {
         width: 5%;
-    }
-    .footer{
-        font-size:8px;
     }
 }
