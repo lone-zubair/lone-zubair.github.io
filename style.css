@@ -178,10 +178,11 @@
     .logo {
         width: 70px;
         border: 2px solid black;
+        margin-left:38%;
     }
     .myname {
         font-size: 10px;
-        margin-left: 27%;
+        margin-left: 25%;
     }
     .section {
         margin: 2%;
